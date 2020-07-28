@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>com.mb.action.AddJvmParamsAction</id>
+    <name>AddJvmParamsAction5.0</name>
+    <version>1.0</version>
+    <vendor email="support@AddJvmParamsAction.com" url="http://www.AddJvmParamsAction.com">AddJvmParamsAction</vendor>
+
+    <description><![CDATA[
+      AddJvmParams1.0AddJvmParams1.0AddJvmParams1.0AddJvmParams1.0AddJvmParams1.0AddJvmParams1.0
+    ]]></description>
+
+    <change-notes><![CDATA[
+      AddJvmParamsActionAddJvmParamsActionAddJvmParamsActionAddJvmParamsActionAddJvmParamsActionAddJvmParamsAction
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="com.mb.action.AddJvmParamsAction" class="com.mb.action.AddJvmParamsAction" text="AddJvmParams"
+                description="AddJvmParamsAction" icon="/icons/sdk_16.svg">
+            <add-to-group group-id="ToolbarRunGroup" anchor="first"></add-to-group>
+        </action>
+    </actions>
+
+</idea-plugin>
